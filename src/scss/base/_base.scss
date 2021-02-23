@@ -17,6 +17,12 @@ body {
   box-sizing: border-box;
 }
 
+footer {
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 5rem;
+}
+
 @media only screen and (max-width: 600px) {
   html {
     font-size: 50%;
