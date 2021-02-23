@@ -30,6 +30,7 @@ export default function App() {
       <div className="App">
         <TrainersList theme={theme} />
       </div>
+      <footer>Copyright {new Date().getFullYear()} @Yoboshu</footer>
     </ThemeProvider>
   );
 }
