@@ -1,0 +1,43 @@
+.primary-heading {
+  font-size: 2rem;
+  margin-bottom: 5rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: $color-secondary-green;
+  text-align: center;
+}
+
+.secondary-heading {
+  font-weight: 400;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  color: #149ddd;
+  margin-top: .4rem;
+}
+
+p {
+  font-weight: 400;
+  margin-bottom: .2rem;
+}
+
+.trainer-price {
+  position: absolute;
+  font-size: 1.2rem;
+  left: 12rem;
+  top: 3.5rem;
+}
+
+.trainer-contact {
+  // position: absolute;
+  // margin: auto;
+  margin-left: 6rem;
+  left: 12rem;
+  float: left;
+  transition: all .3s;
+  color: #149ddd;
+
+  &:hover {
+    color: $color-secondary-green;
+    transform: scale(1.5);
+  }
+}

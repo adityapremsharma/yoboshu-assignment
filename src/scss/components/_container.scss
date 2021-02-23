@@ -1,0 +1,39 @@
+.list-container {
+  margin-top: 10rem;
+}
+
+.card-container {
+  position: relative;
+  width: 30rem;
+  height: 16rem;
+  margin: 0 auto;
+  background-image: linear-gradient(to bottom right, rgba(#48426d, .5), rgba(#0b0f22, .5));
+  // background-color: rgba(#48426d, .5);
+  border-radius: 10px;
+  box-shadow: 0 2px 2px rgba($color-black, .2);
+  transition: all .3s;
+
+  &:hover {
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    cursor: pointer;
+    background-image: linear-gradient(to bottom right, rgba(#174e1a, .5), rgba(#041405, .5));
+    // background-color: rgba(#48426d, .5);
+  }
+
+  &:active {
+    transform: translateY(-1px);
+    box-shadow: 0 .5rem 1rem rgba($color-black, .2);
+  }
+}
+
+.container-details {
+  position: absolute;
+  left: 12rem;
+  top: 1.75rem;
+}
+
+.contact-container {
+  position: absolute;
+  top: 9.5rem;
+}

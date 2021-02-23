@@ -1,0 +1,9 @@
+.add-card-background {
+  background-image: linear-gradient(to bottom right, rgba(#48426d, .8), rgba(#0b0f22, .8));
+  color: $color-white;
+
+  &:hover {
+    background-image: linear-gradient(to bottom right, rgba(#48426d, .2), rgba(#0b0f22, .2));
+    color: $color-black;
+  }
+}
